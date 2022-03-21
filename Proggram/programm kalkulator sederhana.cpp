@@ -55,7 +55,7 @@ int main(){
 			getch();
 			system("cls");
 	}else{
-		break;
+		break;;
 		}
 	
 	
