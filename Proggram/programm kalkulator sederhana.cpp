@@ -11,22 +11,25 @@ int main(){
 	string operasi;
 	
 	while(true){
-		cout<<"PILIH OPERATOR ARITMATIKA"<<endl;
-	cout<<"1. Penjumlahan"<<endl;
-	cout<<"2. Pengurangan"<<endl;
-	cout<<"3. Perkalian"<<endl;
-	cout<<"4. Pembagian"<<endl;
-	cout<<"5. Modulus"<<endl;
-	cout<<"6. Keluar"<<endl;
+		cout<<endl;
+	cout<<"	PILIH OPERATOR ARITMATIKA"<<endl;
 	cout<<endl;
-	cout<<"Masukan Pilihan : ";
+	cout<<"  1. Penjumlahan"<<endl;
+	cout<<"  2. Pengurangan"<<endl;
+	cout<<"  3. Perkalian"<<endl;
+	cout<<"  4. Pembagian"<<endl;
+	cout<<"  5. Modulus"<<endl;
+	cout<<"  6. Keluar"<<endl;
+	cout<<endl;
+	cout<<" Masukan Pilihan : ";
 	cin>>pil;
 	system("cls");
 	
 	if (pil < 6){
-		cout<<"Masukan Bilangan pertama : ";
+		cout<<endl;
+		cout<<" Masukan Bilangan pertama :";
 		cin>>bil1;
-		cout<<"Masukan Bilangan kedua : ";
+		cout<<" Masukan Bilangan kedua   :";
 		cin>>bil2;	
 		
 		switch(pil){
@@ -46,7 +49,7 @@ int main(){
 					 operasi='%';
 					break;
 				default :
-					cout<<"Salah Masukan Operator"<<endl;
+					cout<<" Anda Salah Memasukan Operator"<<endl;
 			}
 			cout<<"-----------------------------"<<endl;
 			cout<<"    "<<bil1<<operasi<<bil2<<"="<<hasil<<endl;
@@ -55,7 +58,7 @@ int main(){
 			getch();
 			system("cls");
 	}else{
-		break;;
+		break;
 		}
 	
 	
